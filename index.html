@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Be My Valentine 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="need-you.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="yesMusic">
+  <source src="perfect.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container" id="main">
+  <h1>🌹 Roses are red</h1>
+  <p>Violets are blue 💕</p>
+  <p><b>Chioma</b></p>
+
+  <div id="typing"></div>
+
+  <img id="displayImg" src="img1.jpg">
+
+  <button id="yesBtn" onclick="yesClicked()">YES 💖</button>
+  <button id="noBtn" onclick="noClicked()">NO 😢</button>
+</div>
+
+<div class="container hidden" id="final">
+  <h1>🎉 HURRAYYYY 💞</h1>
+  <img src="final.jpg">
+  <p>
+    Thank you for accepting to be my Valentine, Chioma 💖<br>
+    I love you and will always do 🥰<br>
+    Our first Valentine together 💍
+  </p>
+
+  <div class="float" id="float"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
